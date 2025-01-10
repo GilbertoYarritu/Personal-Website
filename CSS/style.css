@@ -1,0 +1,107 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", serif;
+    margin-top: 0px;
+    justify-content: center;
+}
+.Container *{
+    margin: 0px;
+}
+#NavBar{
+    display: flex;
+    background-color: #F3E9DF;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+#Hero{
+    display: flex;
+    flex-direction: column;
+    background-color: #F3E9DF;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+
+}
+#Jumbotron{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+h1{
+    font-weight: normal;
+    font-size: 21px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-weight: normal;
+}
+.HeroText{
+    font-weight: normal;
+    width: 620px;
+    text-align: center;
+    padding: 20px;
+}
+.HeroText span{
+    font-weight: 600;
+}
+.JumbotronText{
+    font-weight: 600;
+    color: #201E5A;
+}
+.JumbotronText span{
+    font-weight: normal;
+    display: block;
+    font-size: 21px;
+}
+button{
+    background-color: #CBEAF3;
+    border: none;
+    border-radius: 22.5px;
+    color: #201E5A;
+    font-weight: 600;
+    height: 45px;
+    width: 92.2px;
+    font-size: 16px;
+}
+.ButtonCircle{
+    display: flex;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.ProfilePicture{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 10px;
+}
+#NavBar div{
+    display: flex;
+    align-items: center;
+}
+.NavBarElementsLeft{
+    margin-right: 15px;
+}
+.GithubPicture{
+    height: 30px;
+    width: 30px;
+}
+.LinkedInPicture{
+    height: 25px;
+    width: 30px;
+    padding-left: 4px;
+}
+.ButtonBlue{
+    background-color: #201E5A;
+}
+.ButtonLatest{
+    width: 199px;
+}
